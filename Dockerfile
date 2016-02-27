@@ -91,5 +91,5 @@ EXPOSE 80
 VOLUME /tiles
 
 # Set the default command to run when starting the container
-CMD ["/etc/start.sh"]
+ENTRYPOINT ["/etc/start.sh"]
 
