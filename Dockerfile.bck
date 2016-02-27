@@ -1,0 +1,56 @@
+#
+# OsmTirex
+#
+
+FROM centos:7
+MAINTAINER "Dirk Stichling" <mytracks@mytracks4mac.com>
+
+# Change root password
+RUN echo "root:admin" | chpasswd
+
+USER root
+
+RUN mkdir /osmstyles
+
+COPY osmstyles/* /osmstyles/
+
+RUN yum -y install epel-release
+
+RUN yum -y install unzip && /osmstyles/get-shapefiles.sh
+
+RUN yum -y install git gcc-c++ make harfbuzz-devel gdal gdal-devel cairo-devel boost-devel psmisc \
+&& cd ~ \
+&& mkdir tmp \
+&& cd tmp \
+&& git clone https://github.com/mapnik/mapnik.git \
+&& cd mapnik \
+&& git submodule update --init \
+&& ./configure \
+&& make \
+&& make install \
+&& cd ~ \
+&& rm -rf tmp
+
+RUN yum -y install perl-JSON perl-IPC-ShareLite perl-GD perl-libwww-perl perl-ExtUtils-MakeMaker \
+&& cd ~ \
+&& mkdir tmp \
+&& cd tmp \
+&& git clone https://github.com/geofabrik/tirex/ \
+&& cd tirex \
+&& make \
+&& make install \
+&& cd ~ \
+&& rm -rf tmp
+
+COPY tirex.conf /etc/tirex/
+COPY mapnik.conf /etc/tirex/renderer/
+COPY osm*.conf /etc/tirex/renderer/mapnik/
+COPY start_tirex.sh /etc/tirex/
+
+VOLUME /tiles
+
+EXPOSE 9331
+
+# Set the default command to run when starting the container
+CMD ["/etc/tirex/start_tirex.sh"]
+
