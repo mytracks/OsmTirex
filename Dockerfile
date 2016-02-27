@@ -1,5 +1,6 @@
 #
 # OsmTirex
+# Image including tirex and apache to render OSM data.
 #
 
 FROM mytracks/osmbase:latest
