@@ -14,18 +14,20 @@ COPY ld.so.local.conf /etc/ld.so.conf.d/local.conf
 RUN yum -y install epel-release
 RUN yum -y install gdal gdal-devel git gcc-c++ make harfbuzz-devel cairo-devel
 
+COPY mapnik-v3.0.9.tar.bz2 /tmp/
+
 RUN cd ~ \
 && mkdir tmp \
 && cd tmp \
-&& curl -O https://mapnik.s3.amazonaws.com/dist/v3.0.9/mapnik-v3.0.9.tar.bz2 \
-&& tar jxf mapnik-v3.0.9.tar.bz2 \
+&& tar jxf /tmp/mapnik-v3.0.9.tar.bz2 \
 && cd mapnik-v3.0.9 \
 && ./configure \
 && make \
 && make install \
 && cd ~ \
 && rm -rf tmp \
-&& ldconfig
+&& ldconfig \
+&& rm /tmp/mapnik-v3.0.9.tar.bz2
 
 RUN cd /osmstyles && ./get-shapefiles.sh
 
