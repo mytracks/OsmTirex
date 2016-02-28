@@ -13,7 +13,8 @@ COPY ld.so.local.conf /etc/ld.so.conf.d/local.conf
 
 RUN yum -y install epel-release \
 && rpm -ivh http://yum.postgresql.org/9.5/redhat/rhel-7-x86_64/pgdg-centos95-9.5-2.noarch.rpm \
-&& yum -y install proj sqlite libjpeg-turbo libtiff libwebp postgresql95 postgis2_95 postgresql95 libpqxx harfbuzz gdal cairo boost
+&& yum -y install proj sqlite libjpeg-turbo libtiff libwebp postgresql95 postgis2_95 postgresql95 libpqxx harfbuzz gdal cairo boost \
+&& yum -y install libicu-devel sqlite-devel proj-devel libjpeg-turbo-devel libtiff-devel libwebp-devel postgis2_95-devel postgresql95-devel libpqxx-devel harfbuzz-devel gdal-devel cairo-devel boost-devel
 
 COPY mapnik-3.0.9-1.el7.centos.x86_64.rpm /tmp/
 
