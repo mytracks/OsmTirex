@@ -11,23 +11,14 @@ RUN mkdir /osmstyles
 COPY osmstyles/ /osmstyles/
 COPY ld.so.local.conf /etc/ld.so.conf.d/local.conf
 
-RUN yum -y install epel-release
-RUN yum -y install gdal gdal-devel git gcc-c++ make harfbuzz-devel cairo-devel
+RUN yum -y install epel-release \
+&& rpm -ivh http://yum.postgresql.org/9.5/redhat/rhel-7-x86_64/pgdg-centos95-9.5-2.noarch.rpm \
+&& yum -y install proj sqlite libjpeg-turbo libtiff libwebp postgresql95 postgis2_95 postgresql95 libpqxx harfbuzz gdal cairo boost
 
-COPY mapnik-v3.0.9.tar.bz2 /tmp/
+COPY mapnik-3.0.9-1.el7.centos.x86_64.rpm /tmp/
 
-RUN cd ~ \
-&& mkdir tmp \
-&& cd tmp \
-&& tar jxf /tmp/mapnik-v3.0.9.tar.bz2 \
-&& cd mapnik-v3.0.9 \
-&& ./configure \
-&& make \
-&& make install \
-&& cd ~ \
-&& rm -rf tmp \
-&& ldconfig \
-&& rm /tmp/mapnik-v3.0.9.tar.bz2
+RUN rpm -Uvh /tmp/mapnik-3.0.9-1.el7.centos.x86_64.rpm \
+&& ldconfig
 
 RUN cd /osmstyles && ./get-shapefiles.sh
 
