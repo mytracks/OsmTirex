@@ -17,23 +17,19 @@ RUN yum -y install epel-release \
 && yum -y install proj sqlite libjpeg-turbo libtiff libwebp postgresql95 postgis2_95 postgresql95 libpqxx harfbuzz gdal cairo boost \
 && yum -y install libicu-devel sqlite-devel proj-devel libjpeg-turbo-devel libtiff-devel libwebp-devel postgis2_95-devel postgresql95-devel libpqxx-devel harfbuzz-devel gdal-devel cairo-devel boost-devel
 
+RUN yum -y install httpd perl-Sys-Syslog perl-JSON perl-IPC-ShareLite perl-GD perl-libwww-perl
+
 COPY mapnik-3.0.9-1.el7.centos.x86_64.rpm /tmp/
+COPY modtile-1.0.0-1.el7.centos.x86_64.rpm /tmp/
+COPY tirex-1.0.0-1.el7.centos.x86_64.rpm /tmp/
 
 RUN rpm -Uvh /tmp/mapnik-3.0.9-1.el7.centos.x86_64.rpm \
-&& ldconfig
+&& rpm -Uvh /tmp/modtile-1.0.0-1.el7.centos.x86_64.rpm \
+&& rpm -Uvh /tmp/tirex-1.0.0-1.el7.centos.x86_64.rpm \
+&& ldconfig \
+&& rm /tmp/*.rpm
 
-RUN cd /osmstyles && ./get-shapefiles.sh
-
-RUN yum -y install perl-Sys-Syslog perl-JSON perl-IPC-ShareLite perl-GD perl-libwww-perl perl-ExtUtils-MakeMaker \
-&& cd ~ \
-&& mkdir tmp \
-&& cd tmp \
-&& git clone https://github.com/geofabrik/tirex/ \
-&& cd tirex \
-&& make \
-&& make install \
-&& cd ~ \
-&& rm -rf tmp
+#RUN cd /osmstyles && ./get-shapefiles.sh
 
 COPY tirex.conf /etc/tirex/
 COPY mapnik.conf /etc/tirex/renderer/
@@ -48,33 +44,6 @@ RUN mkdir /var/run/tirex \
 && mkdir /var/log/tirex \
 && chown gis.gis /var/log/tirex \
 && rm -rf /etc/tirex/renderer/mapserver* /etc/tirex/renderer/test* /etc/tirex/renderer/wms*
-
-#
-# Apache
-#
-
-RUN yum -y install httpd httpd-devel
-
-#
-# mod_tile
-#
-
-USER root
-
-RUN cd ~ \
-&& mkdir tmp \
-&& cd tmp \
-&& git clone https://github.com/openstreetmap/mod_tile/ \
-&& cd mod_tile \
-&& ./autogen.sh \
-&& ./configure \
-&& sed -i.bak 's/define MAX_ZOOM .*/define MAX_ZOOM 22/g' includes/render_config.h \
-&& make \
-&& make install \
-&& make install-mod_tile \
-&& ldconfig \
-&& cd ~ \
-&& rm -rf tmp
 
 COPY mod_tile.conf /etc/httpd/conf.d/
 
