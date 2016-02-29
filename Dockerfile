@@ -3,6 +3,7 @@
 # Image including tirex and apache to render OSM data.
 #
 
+
 FROM mytracks/osmbase:latest
 MAINTAINER "Dirk Stichling" <mytracks@mytracks4mac.com>
 
