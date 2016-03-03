@@ -651,7 +651,7 @@ case when religion in ('christian','jewish') then religion else 'INT-generic'::t
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -678,7 +678,7 @@ where man_made='cutline'
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -722,7 +722,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -762,7 +762,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -798,7 +798,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -892,7 +892,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -921,7 +921,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -955,7 +955,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1246,7 +1246,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1271,7 +1271,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1295,7 +1295,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1314,7 +1314,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1380,7 +1380,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1400,7 +1400,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2143,7 +2143,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2172,7 +2172,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2196,7 +2196,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2220,7 +2220,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2260,7 +2260,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2289,7 +2289,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2323,7 +2323,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2359,7 +2359,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2383,7 +2383,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2485,7 +2485,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -2548,7 +2548,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -3007,7 +3007,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -3091,7 +3091,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -3147,7 +3147,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -3205,7 +3205,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -8994,7 +8994,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -9096,7 +9096,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -9133,7 +9133,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -9193,7 +9193,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -9478,7 +9478,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -9504,7 +9504,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -10982,7 +10982,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11021,7 +11021,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11047,7 +11047,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11117,7 +11117,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11156,7 +11156,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11185,7 +11185,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11204,7 +11204,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11228,7 +11228,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11300,7 +11300,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11333,7 +11333,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11390,7 +11390,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11491,7 +11491,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11600,7 +11600,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11709,7 +11709,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -11910,7 +11910,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -12111,7 +12111,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -12573,7 +12573,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13033,7 +13033,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13062,7 +13062,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13081,7 +13081,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13137,7 +13137,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13171,7 +13171,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13247,7 +13247,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13395,7 +13395,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -13859,7 +13859,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14321,7 +14321,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14361,7 +14361,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14380,7 +14380,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14402,7 +14402,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14429,7 +14429,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14553,7 +14553,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14605,7 +14605,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -14631,7 +14631,7 @@ case when leisure='pitch' then 2
        <Parameter name="extent"><![CDATA[-20037508,-19929239,20037508,19929239]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       <Parameter name="dbname"><![CDATA[gis]]></Parameter><Parameter name="user"><![CDATA[gis]]></Parameter><Parameter name="host"><![CDATA[osmpostgres]]></Parameter><Parameter name="port"><![CDATA[5432]]></Parameter><Parameter name="password"><![CDATA[gis]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 

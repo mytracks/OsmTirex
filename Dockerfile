@@ -3,7 +3,6 @@
 # Image including tirex and apache to render OSM data.
 #
 
-
 FROM mytracks/osmbase:latest
 MAINTAINER "Dirk Stichling" <mytracks@mytracks4mac.com>
 
@@ -16,7 +15,7 @@ RUN yum -y install httpd
 
 RUN yum -y install epel-release \
 && rpm -ivh http://yum.postgresql.org/9.5/redhat/rhel-7-x86_64/pgdg-centos95-9.5-2.noarch.rpm \
-&& yum -y install proj sqlite libjpeg-turbo libtiff libwebp postgresql95 postgis2_95 postgresql95 libpqxx harfbuzz gdal cairo boost perl-Sys-Syslog perl-JSON perl-IPC-ShareLite perl-GD perl-libwww-perl
+&& yum -y install proj sqlite libjpeg-turbo libtiff libwebp postgis2_95 libpqxx harfbuzz gdal cairo boost perl-Sys-Syslog perl-JSON perl-IPC-ShareLite perl-GD perl-libwww-perl
 
 COPY mapnik-3.0.9-1.el7.centos.x86_64.rpm /tmp/
 COPY modtile-1.0.0-1.el7.centos.x86_64.rpm /tmp/
